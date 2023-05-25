@@ -1,4 +1,3 @@
 package com.example.quotopia
 
-class Quote {
-}
+data class Quote(val text: String, val author: String)
